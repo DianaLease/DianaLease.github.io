@@ -10,7 +10,7 @@ $('#movie-search-form').keyup(function(e) {  // this function fires on keyup. as
 
 function searchOMDB(query) {
   // this is the function that makes the request with jQuerys's getJSON  http://www.ombdapi.com/?t=something
-  $.getJSON('http://www.omdbapi.com/', {  // $ means "jQuery"
+  $.getJSON('https://www.omdbapi.com/', {  // $ means "jQuery"
     t: query, // this query comes from the argument passed in parens above, which
     plot: "short",
     r: 'json'
