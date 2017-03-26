@@ -40,7 +40,7 @@ header img{
 .main-content {
 	background-color: #808f85;
 	padding: 10px 0;
-	border-top: 2px solid #1E8595;
+	border-top: 2px solid #000000;
 }
 
 .main-content ul {
@@ -56,7 +56,7 @@ header img{
 }
 
 a {
-	color: #1E8595;
+	color: #000000;
 	text-decoration: none; /* gets rid of underline */
 }
 
