@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Muli');
+
+h1,h2,h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: #610533;
+}
+
+p, li {
+	font-family: 'Muli', sans-serif;
+}
+
+body {
+	background: url('https://s-media-cache-ak0.pinimg.com/originals/f3/34/64/f33464e80d1037d96cb2ab74d0966060.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+/* the ".." means go back a level (back up to about-me), then into images, then abstract 
+center center means it's centered on the X axis and the Y axis
+fixed means it wont move when scrolling*/
+
+.wrapper {
+	width: 960 px;
+	margin: 0 auto;
+	padding: 100px;
+}
+
+header, footer {
+	background-color: #595959;
+	text-align: center;
+	padding: 15px 30px; 
+	/* top/bottom left/right */
+}
+
+header img{
+	width: 50%;
+	border-radius: 10px;
+}
+/*inside header, look for image, and do this to it. (if you had a comma after header, you'd do those changes to both header & image*/
+
+
+.main-content {
+	background-color: #808f85;
+	padding: 10px 0;
+	border-top: 2px solid #1E8595;
+}
+
+.main-content ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.main-content ul li {
+	padding: 10px;
+	display: inline;
+}
+
+a {
+	color: #1E8595;
+	text-decoration: none; /* gets rid of underline */
+}
+
+.main-content p {
+	padding: 10px 40px;
+}
+
+.main-content h2 {
+	text-align: center;
+}
+
+#projects {
+	background-color: #808f85
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.project {
+	width: 30%;
+	display: inline-block;
+	background-color: #f2e9dc;
+	margin: 1.66%;
+	border-radius: 15px;
+	float: left;
+}
+
+.project img {
+	max-width: 100%
+}
